@@ -147,7 +147,29 @@ kubernetes
 websocket
 
 [undecided]
+azure-blob
+azure-queue
+bonita
+couchbase
+digitalocean
+drill
+elasticsearch5
+google-pubsub
+grpc
 http4s
+mongodb3
+openstack-cinder
+openstack-glance
+openstack-keystone
+openstack-neutron
+openstack-nova
+openstack-swift
+reactive-streams
+rest-swagger
+sjms2
+tika
+zendesk
+zookeeper-master
 
 [rejected]
 apns
