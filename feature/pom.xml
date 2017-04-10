@@ -103,6 +103,10 @@
             <artifactId>scriptengines-jruby</artifactId>
         </dependency>
         <dependency>
+            <groupId>com.squareup.okhttp</groupId>
+            <artifactId>okhttp</artifactId>
+        </dependency>
+        <dependency>
             <groupId>javax.cache</groupId>
             <artifactId>cache-api</artifactId>
         </dependency>
@@ -121,6 +125,12 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-avro</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
@@ -153,6 +163,12 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-cassandraql</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
@@ -209,6 +225,12 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-elasticsearch</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
@@ -543,6 +565,12 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-vertx</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.camel</groupId>
@@ -571,6 +599,12 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-zookeeper</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.netty</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.felix</groupId>
