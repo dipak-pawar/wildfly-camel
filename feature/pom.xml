@@ -103,10 +103,6 @@
             <artifactId>scriptengines-jruby</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.squareup.okhttp</groupId>
-            <artifactId>okhttp</artifactId>
-        </dependency>
-        <dependency>
             <groupId>javax.cache</groupId>
             <artifactId>cache-api</artifactId>
         </dependency>
@@ -758,6 +754,10 @@
                         <exclude>
                             <groupId>io.hawt</groupId>
                             <artifactId>hawtio-wildfly</artifactId>
+                        </exclude>
+                        <exclude>
+                            <groupId>com.squareup.okhttp</groupId>
+                            <artifactId>okhttp</artifactId>
                         </exclude>
                     </dependencyExcludes>
                 </configuration>

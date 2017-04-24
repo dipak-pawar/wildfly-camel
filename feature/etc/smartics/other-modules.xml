@@ -186,19 +186,6 @@
         </dependencies>
     </module>
 
-    <module name="com.squareup.okhttp">
-        <properties>
-            <property name="jboss.api" value="private"/>
-        </properties>
-        <include artifact="com.squareup.okhttp:"/>
-        <apply-to-dependencies skip="true">
-            <include module="com.google.android"/>
-        </apply-to-dependencies>
-        <dependencies>
-            <module name="javax.api"/>
-        </dependencies>
-    </module>
-
     <module name="com.squareup.okhttp3">
         <properties>
             <property name="jboss.api" value="private"/>
